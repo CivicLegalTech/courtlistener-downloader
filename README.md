@@ -17,7 +17,7 @@ A standalone Python script that searches CourtListener for likely civil lawsuits
 2. Extract the release ZIP into a writable folder.
 3. Obtain your own [CourtListener API token](https://www.courtlistener.com/profile/api-token/).
 4. On Windows, double-click `START_WINDOWS.bat`. On other systems, run `python3 download.py` in a terminal.
-5. Paste your token at the prompt. Input stays hidden.
+5. Paste your token at the prompt. Input stays hidden, hit enter.
 
 Downloaded cases appear in `AnythingLLM_Police_Civil_Cases/`. You can import the `.txt` files into a document or retrieval tool manually. The script has no direct AnythingLLM integration.
 
