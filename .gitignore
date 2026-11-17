@@ -1,0 +1,24 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local downloads and state
+AnythingLLM_Police_Civil_Cases/
+download_progress.json
+request_timing.json
+*.tmp
+*.log
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Local release packages
+*.zip
